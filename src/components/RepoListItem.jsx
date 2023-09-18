@@ -25,7 +25,7 @@ function RepoListItem({goal, stars}) {
                 <p>{humanizeNumber(stars)}</p>
               </FlexStart>
             ) : (
-              <p><i>Sync in Progress</i></p>
+              <p><i>Sync in Progress now</i></p>
             )}
           </FlexColumn>
         </FlexCenter>
